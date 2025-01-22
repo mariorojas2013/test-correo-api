@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "16.19.1"
-  },
+  
   "scripts": {
     "build": "netlify deploy --prod",
     "start": "NODE_ENV=local netlify dev"
