@@ -1,2 +1,7 @@
 [build]
     functions = "functions"
+    command = "npm run build"
+    publish = "." # O la carpeta donde se generan tus archivos estáticos
+
+[build.environment]
+  NODE_VERSION = "16"
