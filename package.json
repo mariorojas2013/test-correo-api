@@ -1,13 +1,18 @@
 {
-    "name": "mi-api",
-    "version": "1.0.0",
-    "description": "Mi primer API con Node.js y Express",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js",
-      "build": "netlify deploy --prod"
-    },
-    "dependencies": {
-      "express": "^4.17.3"
-    }
+  "name": "back_end_netly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "netlify deploy --prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "netlify-cli": "^12.7.2",
+    "netlify-lambda": "^2.0.15",
+    "serverless-http": "^2.7.0"
   }
+}
